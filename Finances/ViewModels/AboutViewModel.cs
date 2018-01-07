@@ -9,7 +9,7 @@ namespace Finances
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "AboutThis";
 
             OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
         }
